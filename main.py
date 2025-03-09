@@ -6,4 +6,4 @@ with SB(uc=True, test=True, locale="en") as sb:
     sb.uc_gui_click_captcha()
     sb.sleep(5)
 
-    sb.save_screenshot()
+    sb.save_screenshot("sex.jpg")
